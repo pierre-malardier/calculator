@@ -1,0 +1,11 @@
+.ecran{
+    border: solid 2px white;
+    border-radius: 10px;
+    width: 70%;
+    height: 70px;
+    margin: auto;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

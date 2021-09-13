@@ -1,0 +1,19 @@
+.button{
+    font-size: 3rem ;
+    border-radius: 10px;
+    box-shadow: orange 2px 2px 2px;
+}
+.button-0{
+    font-size: 3rem ;
+    border-radius: 10px;
+    box-shadow: orange 2px 2px 2px;
+}
+.button-hidden{
+    font-size: 3rem ;
+    border-radius: 10px;
+    visibility: hidden;
+    
+}
+.number{
+    margin: auto;
+}
