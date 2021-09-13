@@ -2,7 +2,7 @@ import '../css/BeautifulScreen.css';
 
 function BeautifulScreen() {
     return (
-        <div className="ecran">0</div>
+        <div className="ecran"></div>
     );
 }
 

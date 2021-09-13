@@ -13,7 +13,7 @@ function Calculator() {
             <AmazingNumberButton />
             <GreatOperationButton />
             <MangnificientEqualButton />
-
+            <listNumber />
         </section>
     );
 }

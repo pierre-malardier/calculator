@@ -1,16 +1,12 @@
 import '../css/AmazingOperation.css';
 
 function GreatOperationButton() {
-    return (
-        <table class="tableOperation">
-            <tr>
-                <button class="operationButton"><td>+</td></button>
-                <button class="operationButton"><td>-</td></button>
-                <button class="operationButton"><td>/</td></button>
-                <button class="operationButton"><td>*</td></button>
-            </tr>
-        </table>
+    const operations = ['+', '-', '/', '*'];
+    const listOperations = operations.map((operation) =>
+        <button class="operationButton" onclick={GreatOperationButton}>{operation}</button>
+
     );
+    return (listOperations);
 }
 
 export default GreatOperationButton;

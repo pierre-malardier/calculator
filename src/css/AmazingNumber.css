@@ -1,9 +1,4 @@
-.button{
-    font-size: 3rem ;
-    border-radius: 10px;
-    box-shadow: orange 2px 2px 2px;
-}
-.button-0{
+.numberButton{
     font-size: 3rem ;
     border-radius: 10px;
     box-shadow: orange 2px 2px 2px;
