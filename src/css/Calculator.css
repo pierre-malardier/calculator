@@ -1,8 +1,17 @@
 .calculator{
-    background-color: black;
+    background-color: white;
     border: solid 2px orange;
     border-radius: 10px;
     margin: auto;
-    width: 80%;
+    width: 30%;
     color: white;
+    display: block;
+}
+.buttons{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 3rem ;
+    border-radius: 10px;
+    box-shadow: orange 2px 2px 2px;
+    
 }
