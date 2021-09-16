@@ -1,17 +1,48 @@
-.calculator{
+body{
     background-color: white;
-    border: solid 2px orange;
-    border-radius: 10px;
-    margin: auto;
-    width: 30%;
-    color: white;
-    display: block;
 }
-.buttons{
+.calculator{
+    background-color: black;
+    border: solid 2px black;
+    margin: auto;
+    max-width: 30%;
     text-align: center;
+}
+.title{
+    color: orange;
+    text-align: center;
+}
+.keyPad{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+
+}
+.ecran{
+    background-color: black;
+    width: 95%;
+    height: 70px;
+    margin: auto;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: white;
+}
+.operationButtons{
     margin-top: 2%;
     font-size: 3rem ;
     border-radius: 10px;
-    box-shadow: orange 2px 2px 2px;
-    
+    width: 25%;
+}
+.buttons{
+    margin-top: 2%;
+    font-size: 3rem ;
+    border-radius: 10px;
+    width: 30%;
+}
+.equalButton{
+    font-size: 4rem;
+    width:100%;  
 }

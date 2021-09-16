@@ -32,34 +32,34 @@ function Calculator() {
         <section className="calculator">
             <TheTitle label="Calculator 9000" />
             <BeautifulScreen result={result} />
-            <div className="buttons">
-                <div>
-                    <AmazingNumberButton HandleClick={HandleClick} label="7" />
-                    <AmazingNumberButton HandleClick={HandleClick} label="8" />
-                    <AmazingNumberButton HandleClick={HandleClick} label="9" />
-                </div>
-                <div>
-                    <AmazingNumberButton HandleClick={HandleClick} label="4" />
-                    <AmazingNumberButton HandleClick={HandleClick} label="5" />
-                    <AmazingNumberButton HandleClick={HandleClick} label="6" />
-                </div>
-                <div>
-                    <AmazingNumberButton HandleClick={HandleClick} label="1" />
-                    <AmazingNumberButton HandleClick={HandleClick} label="2" />
-                    <AmazingNumberButton HandleClick={HandleClick} label="3" />
-                </div>
-                <div>
-                    <AmazingNumberButton HandleClick={HandleClick} label="0" />
-                    <AmazingNumberButton HandleClick={HandleClick} label='C' />
-                </div>
-                <div>
+            <div className="keyPad">
+                <div className="firstRow">
                     <GreatOperationButton HandleClick={HandleClick} label="+" />
                     <GreatOperationButton HandleClick={HandleClick} label="-" />
                     <GreatOperationButton HandleClick={HandleClick} label="/" />
                     <GreatOperationButton HandleClick={HandleClick} label="*" />
                 </div>
+                <div className="secondRow">
+                    <AmazingNumberButton HandleClick={HandleClick} label="7" />
+                    <AmazingNumberButton HandleClick={HandleClick} label="8" />
+                    <AmazingNumberButton HandleClick={HandleClick} label="9" />
+                </div>
+                <div className="thirdRow">
+                    <AmazingNumberButton HandleClick={HandleClick} label="4" />
+                    <AmazingNumberButton HandleClick={HandleClick} label="5" />
+                    <AmazingNumberButton HandleClick={HandleClick} label="6" />
+                </div>
+                <div className="fourthRow">
+                    <AmazingNumberButton HandleClick={HandleClick} label="1" />
+                    <AmazingNumberButton HandleClick={HandleClick} label="2" />
+                    <AmazingNumberButton HandleClick={HandleClick} label="3" />
+                </div>
+                <div className="fifthRow">
+                    <AmazingNumberButton HandleClick={HandleClick} label='C' />
+                    <AmazingNumberButton HandleClick={HandleClick} label="0" />
+                    <AmazingNumberButton HandleClick={HandleClick} label='.' />
+                </div>
                 <div>
-
                     <MangnificientEqualButton HandleClick={HandleClick} label="=" />
                 </div>
             </div>
