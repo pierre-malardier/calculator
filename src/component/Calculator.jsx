@@ -33,28 +33,28 @@ function Calculator() {
             <TheTitle label="Calculator 9000" />
             <BeautifulScreen result={result} />
             <div className="keyPad">
-                <div className="firstRow">
+                <div>
                     <GreatOperationButton HandleClick={HandleClick} label="+" />
                     <GreatOperationButton HandleClick={HandleClick} label="-" />
                     <GreatOperationButton HandleClick={HandleClick} label="/" />
                     <GreatOperationButton HandleClick={HandleClick} label="*" />
                 </div>
-                <div className="secondRow">
+                <div >
                     <AmazingNumberButton HandleClick={HandleClick} label="7" />
                     <AmazingNumberButton HandleClick={HandleClick} label="8" />
                     <AmazingNumberButton HandleClick={HandleClick} label="9" />
                 </div>
-                <div className="thirdRow">
+                <div >
                     <AmazingNumberButton HandleClick={HandleClick} label="4" />
                     <AmazingNumberButton HandleClick={HandleClick} label="5" />
                     <AmazingNumberButton HandleClick={HandleClick} label="6" />
                 </div>
-                <div className="fourthRow">
+                <div >
                     <AmazingNumberButton HandleClick={HandleClick} label="1" />
                     <AmazingNumberButton HandleClick={HandleClick} label="2" />
                     <AmazingNumberButton HandleClick={HandleClick} label="3" />
                 </div>
-                <div className="fifthRow">
+                <div>
                     <AmazingNumberButton HandleClick={HandleClick} label='C' />
                     <AmazingNumberButton HandleClick={HandleClick} label="0" />
                     <AmazingNumberButton HandleClick={HandleClick} label='.' />

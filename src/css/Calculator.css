@@ -3,9 +3,10 @@ body{
 }
 .calculator{
     background-color: black;
+    border-radius: 10px;
     border: solid 2px black;
     margin: auto;
-    max-width: 30%;
+    max-width: 400px;
     text-align: center;
 }
 .title{
@@ -32,9 +33,9 @@ body{
 }
 .operationButtons{
     margin-top: 2%;
-    font-size: 3rem ;
-    border-radius: 10px;
+    font-size: 3rem;
     width: 25%;
+    border-radius: 10px;
 }
 .buttons{
     margin-top: 2%;
@@ -45,4 +46,8 @@ body{
 .equalButton{
     font-size: 4rem;
     width:100%;  
+    border-radius: 0 0 10px 10px;
+}
+button:hover{
+    color: orange;
 }
